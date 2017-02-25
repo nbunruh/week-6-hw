@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Celeb-Giphy</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <h4 class="text-center">Click on any celebrity's button and watch the magic!</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="celebButtons"></div>
+            <div class="col-sm-3">
+                <form id="celebForm">
+                    <label for="celebInput">Enter a celebrity:</label>
+                    <input class="form-control" type="text" id="celebInput">
+                    <button id="addCeleb" class="btn btn-primary btn-block button-submit" type="submit" value="Submit">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="celebs">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>

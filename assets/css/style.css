@@ -1,0 +1,23 @@
+p {
+    text-align: center;
+}
+
+.btn {
+    padding: 5px;
+}
+
+.button-list {
+    margin: 15px 5px;
+}
+
+.button-submit {
+    margin-top: 10px;
+}
+
+.gif-margin {
+    margin-bottom: 25px;
+}
+
+.panel {
+    background-color: black;
+}
